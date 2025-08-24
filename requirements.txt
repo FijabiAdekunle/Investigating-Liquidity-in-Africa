@@ -1,6 +1,10 @@
-pandas
-requests
-matplotlib
-pytrends
-python-dotenv
-nbformat
+pandas==2.2.2
+requests==2.32.3
+matplotlib==3.9.2
+seaborn==0.13.2
+networkx==3.3
+pytrends==4.9.2
+python-dotenv==1.0.1
+nbformat==5.10.4
+plotly==5.22.0
+dune-client==1.7.3 
