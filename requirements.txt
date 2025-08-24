@@ -1,0 +1,6 @@
+pandas
+requests
+matplotlib
+pytrends
+python-dotenv
+nbformat
