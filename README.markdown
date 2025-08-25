@@ -2,7 +2,7 @@
 
 This repo supports my **Technical Research Analyst** application for **LAVA**, investigating where African payment orchestration companies source liquidity and how efficiently it’s used. A **Nigeria stablecoin adoption** case study grounds the analysis in data, focusing on platforms like Flutterwave and Binance P2P.
 
-## 🧭 Methodology (Summary)
+## Methodology (Summary)
 1. **Map Liquidity Sources**: Trace flows from banks (e.g., Zenith Bank FX lines), mobile money (MTN MoMo), stablecoins (USDT via Binance P2P), remittances (WorldRemit, hawala), and central bank FX auctions (CBN).  
 2. **Collect Data**: Onchain (Dune Analytics for USDT/Celo transfers), offchain (World Bank remittances, Google Trends for “crypto”/“dollar rate”), and primary insights (X posts from P2P traders).  
 3. **Measure Efficiency**: Analyze cost (e.g., 2–5% P2P fees), speed (crypto vs. T+2 bank transfers), and recycling (USDT-to-Naira reconversion losses).  
