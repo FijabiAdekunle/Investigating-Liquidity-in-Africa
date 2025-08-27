@@ -43,4 +43,5 @@ See `requirements.txt`.
 MIT License – open for collaboration and review.
 
 ## 🧑‍💻 Author
-> Fijabi J. Adekunle – Marine engineer turned data scientist, mapping financial flows with precision.
+ **Fijabi J. Adekunle** – Marine engineer turned data scientist
+> Navigating Data | Unveiling Insight | Driving Impact
