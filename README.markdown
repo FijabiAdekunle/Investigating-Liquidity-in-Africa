@@ -41,6 +41,8 @@ See `requirements.txt`.
 
 ## 📜 License
 MIT License – open for collaboration and review.
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=FijabiAdekunle.Investigating-Liquidity-in-Africa)
+
 
 ## 🧑‍💻 Author
  **Fijabi J. Adekunle** – Marine engineer turned data scientist
