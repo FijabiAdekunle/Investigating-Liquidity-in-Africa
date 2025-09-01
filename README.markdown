@@ -41,7 +41,8 @@ See `requirements.txt`.
 
 ## 📜 License
 MIT License – open for collaboration and review.
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=FijabiAdekunle.Investigating-Liquidity-in-Africa)
+
+![visitors](https://vbr.nathanchung.dev/badge?page_id=FijabiAdekunle.Investigating-Liquidity-in-Africa)
 
 
 ## 🧑‍💻 Author
