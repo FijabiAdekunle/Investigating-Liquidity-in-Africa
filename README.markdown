@@ -1,50 +1,94 @@
-# 🌋 LAVA – Liquidity in Africa (Nigeria Stablecoin Case Study)
+# 🌍 Liquidity in Africa: Nigeria Stablecoin Case Study
 
-This repo supports my **Technical Research Analyst** application for **LAVA**, investigating where African payment orchestration companies source liquidity and how efficiently it’s used. A **Nigeria stablecoin adoption** case study grounds the analysis in data, focusing on platforms like Flutterwave and Binance P2P.
+*This repo investigates where African payment orchestration companies source liquidity and how efficiently it’s used, using Nigeria’s stablecoin adoption as a case study.*
 
-## Methodology (Summary)
-1. **Map Liquidity Sources**: Trace flows from banks (e.g., Zenith Bank FX lines), mobile money (MTN MoMo), stablecoins (USDT via Binance P2P), remittances (WorldRemit, hawala), and central bank FX auctions (CBN).  
-2. **Collect Data**: Onchain (Dune Analytics for USDT/Celo transfers), offchain (World Bank remittances, Google Trends for “crypto”/“dollar rate”), and primary insights (X posts from P2P traders).  
-3. **Measure Efficiency**: Analyze cost (e.g., 2–5% P2P fees), speed (crypto vs. T+2 bank transfers), and recycling (USDT-to-Naira reconversion losses).  
-4. **Analyze & Visualize**: Time-series (stablecoin surges), correlations (FX volatility), and network maps (wallet flows).  
-5. **Deliver**: Dashboard (USDT flow trends), efficiency scorecard (by market/channel), and narrative report (bottlenecks, opportunities).
+The research draws on both `onchain` and `offchain` data, with a focus on how platforms like Binance P2P, Flutterwave, and mobile money providers contribute to liquidity flows in Nigeria.
 
-See `notebooks/liquidity_nigeria_stablecoins.ipynb` for the analysis. Sample output: `outputs/usdt_naira_flows.png` (network map of Binance P2P trades).
+### 🔎 Methodology (Summary)
 
-## 📂 Repo Structure
-- `notebooks/liquidity_nigeria_stablecoins.ipynb`: Main analysis notebook.
-- `scripts/`: Data scraping (e.g., Binance P2P API).
-- `outputs/`: Visualizations (e.g., flow maps, efficiency charts).
-- `requirements.txt`: Dependencies.
+**Map Liquidity Sources**
+- Banks (e.g., Zenith FX lines), mobile money (MTN MoMo), stablecoins (USDT via Binance P2P), remittances (WorldRemit, hawala), and CBN FX auctions.
 
-## 🚀 Quickstart
-```bash
-# Use a virtual environment
-python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+**Collect Data**
 
-# Set Dune API key (optional for onchain data)
-export DUNE_API_KEY="YOUR_KEY"  # Windows: set DUNE_API_KEY=YOUR_KEY
+`Onchain`: USDT transfers on Ethereum/Celo (Dune Analytics).
 
-# Run notebook
-jupyter lab
-```
+`Offchain`: World Bank remittances, CBN FX reports, Google Trends for “USDT/crypto/dollar rate.”
 
-## 📦 Data Sources
-- **World Bank**: Remittances received (`BX.TRF.PWKR.CD.DT`) for Nigeria via API.  
-- **Google Trends**: Interest for “USDT,” “Binance,” “P2P” in Nigeria (`pytrends`).  
-- **Dune Analytics**: USDT transfers on Ethereum and Celo, filtered for Nigeria via exchange APIs (e.g., Binance P2P).  
-- **CBN Reports**: FX auction volumes and parallel market spreads.
+**Primary Insights**: P2P trader posts on X/Twitter.
 
-## 🧰 Requirements
-See `requirements.txt`.
+- Measure Efficiency:
+Compare cost (2–5% P2P spreads vs 8–9% bank FX), speed (crypto instant vs T+2 bank), and recycling (losses from USDT-to-Naira reconversions).
 
-## 📜 License
-MIT License – open for collaboration and review.
+- Analyze & Visualize
 
-![visitors](https://vbr.nathanchung.dev/badge?page_id=FijabiAdekunle.Investigating-Liquidity-in-Africa)
+- Time-series: stablecoin surges.
 
+- Correlations: USDT demand vs FX volatility.
 
-## 🧑‍💻 Author
- **Fijabi J. Adekunle** – Marine engineer turned data scientist
-> Navigating Data | Unveiling Insight | Driving Impact
+- Network maps: wallet flows across P2P.
+
+**Deliverables**
+
+- Dashboard: USDT trend flows.
+
+- Efficiency scorecard: By liquidity channel.
+
+- Narrative report: Bottlenecks & opportunities.
+
+- 👉 See notebooks/liquidity_nigeria_stablecoins.ipynb
+ for the full analysis.
+- 👉 Sample output: outputs/usdt_naira_flows.png (Binance P2P network map).
+
+### 📂 Repo Structure
+
+- notebooks/liquidity_nigeria_stablecoins.ipynb → Main analysis notebook.
+
+- scripts/ → Scraping utilities (Binance P2P API).
+
+- outputs/ → Charts & visualizations (flow maps, scorecards).
+
+- requirements.txt → Dependencies list.
+
+### 🚀 Quickstart
+### Create virtual environment
+python -m venv .venv && source .venv/bin/activate  
+#### Windows: .venv\Scripts\activate  
+
+#### Install requirements
+pip install -r requirements.txt  
+
+#### (Optional) Set Dune API key for onchain queries
+export DUNE_API_KEY="YOUR_KEY"  
+#### Windows: set DUNE_API_KEY=YOUR_KEY  
+
+#### Launch Jupyter
+jupyter lab  
+
+### 📦 Data Sources
+
+- World Bank: Remittances API (BX.TRF.PWKR.CD.DT).
+
+- Google Trends: “USDT,” “Binance,” “P2P” via pytrends.
+
+- Dune Analytics: USDT flows (Ethereum + Celo).
+
+- CBN Reports: FX auctions & parallel market spreads.
+
+- Binance P2P API: Real spreads and liquidity depth.
+
+### 🧰 Requirements
+
+> See requirements.txt
+.
+
+### 📜 License
+
+*MIT License — open for collaboration, feedback, and community contributions.*
+
+### 👤 Author
+
+Fijabi J. Adekunle
+> Marine engineer ⚓ turned data scientist 📊, exploring how liquidity flows shape Africa’s fintech and Web3 future.
+
+*✨ Note: This project began as part of a VC research task but is now released publicly to contribute to the growing conversation on open financial infrastructure in Africa.*
