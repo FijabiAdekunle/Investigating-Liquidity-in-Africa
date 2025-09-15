@@ -1,4 +1,5 @@
 # 🌍 Liquidity in Africa: Nigeria Stablecoin Case Study
+[![Liquidity-in-Africa.png](https://i.postimg.cc/Prf1WwV8/Liquidity-in-Africa.png)](https://postimg.cc/YjV4khHp)
 
 *This repo investigates where African payment orchestration companies source liquidity and how efficiently it’s used, using Nigeria’s stablecoin adoption as a case study.*
 
